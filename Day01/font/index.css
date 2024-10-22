@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "TTLaundryGothicB";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/TTLaundryGothicB.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font {
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font1 {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font2 {
+  font-family: "Nanum Pen Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font3 {
+  font-family: "TTLaundryGothicB";
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kakaobtn {
+  background-color: yellow;
+  border-radius: 4px;
+  border: 1px solid yellow;
+  font-weight: 600;
+  padding: 10px 50px;
+}
+
+.applebtn {
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid gray;
+  font-weight: 600;
+  padding: 10px 50px;
+}
