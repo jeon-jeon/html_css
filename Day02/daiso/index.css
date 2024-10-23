@@ -1,0 +1,70 @@
+.card {
+  width: 250px;
+  height: 500px;
+  padding: 10px;
+}
+
+.album {
+  width: 100%;
+  position: relative;
+}
+
+.album > img {
+  width: 100%;
+  height: 70%;
+  object-fit: contain;
+}
+
+.album > i {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding: 15px;
+  border-radius: 9999px;
+  background-color: #e98087;
+}
+.price {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.title {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  margin-top: 15px;
+}
+
+.best {
+  font-size: 16px;
+  font-weight: 700;
+  padding-right: 5px;
+  border-right: 2px solid gray;
+}
+
+.star {
+  color: gray;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.delivery {
+  background-color: red;
+  color: white;
+  border-radius: 3px;
+  border: 1px solid red;
+  margin-top: 15px;
+}
+
+/* .ellipsis {
+  width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+} */

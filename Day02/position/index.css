@@ -1,0 +1,25 @@
+/* body {
+  background-color: skyblue;
+  height: 200vh;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+} */
+
+.box {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  position: relative;
+}
+
+.ice {
+  position: absolute;
+  right: 10px;
+}

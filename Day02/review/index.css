@@ -1,0 +1,19 @@
+.facebook {
+  background-color: #1877f2;
+  color: white;
+  border-radius: 4px;
+  border: 1px solid #1877f2;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.google {
+  background-color: white;
+  color: #dbdbdb;
+  border-radius: 4px;
+  border: 1px solid white;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
