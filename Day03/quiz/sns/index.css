@@ -1,0 +1,53 @@
+.box {
+  width: 250px;
+  height: 500px;
+  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+  border-radius: 20px;
+  padding: 50px 15px 0px 15px;
+  text-align: center;
+  color: white;
+}
+
+/* 1. block 태그로 감싸서 margin 효과 주기 */
+/* 2. img, strong -> block 태그로 바꾸기 */
+.box > img {
+  display: block;
+  width: 70px;
+  height: 70px;
+  border-radius: 9999px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.box > strong {
+  font-size: 18px;
+  font-weight: 500;
+  display: block;
+  margin-top: 10px;
+}
+
+.box > p {
+  font-size: 14px;
+  margin-top: 5px;
+}
+.content {
+  width: 100%;
+  padding: 10px 0px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 30px;
+  margin-top: 15px;
+}
+
+.marginP {
+  margin-top: 20px;
+}
+
+.icons {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.icons > i {
+  margin-left: 10px;
+}

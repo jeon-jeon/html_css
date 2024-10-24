@@ -1,0 +1,53 @@
+.container {
+  width: 20vw;
+  height: 50vh;
+
+  /* flex : 자식들을 일렬로 바꾸는 속성 */
+  display: flex;
+  flex-direction: column;
+
+  /* justfy-content (main축) */
+  /* justify-content: start; */
+  /* align-items (sub축) */
+  /* align-items: flex-start; */
+}
+.box1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.box2 {
+  width: 100%;
+  height: 100%;
+  color: white;
+  position: relative;
+}
+
+.box2 > span {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+}
+
+.tur {
+  background-color: #1abc9c;
+}
+.eme {
+  background-color: #2ecc71;
+}
+
+.gre {
+  background-color: #16a085;
+}
+.nep {
+  background-color: #27ae60;
+}
+
+.sun {
+  background-color: #f1c40f;
+}
+.car {
+  background-color: #e67e22;
+}
