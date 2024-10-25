@@ -1,0 +1,22 @@
+.motto {
+  /* width: 100vw; */
+  padding: 200px 0px;
+  background-color: #dbdbdb;
+}
+
+.motto > article {
+  /* width: 100%;
+  max-width: 1040px;
+  margin: 0 auto; */
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.4;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+/* .motto > p {
+  margin-top: 15px;
+} */

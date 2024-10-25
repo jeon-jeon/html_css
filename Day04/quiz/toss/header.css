@@ -1,0 +1,45 @@
+.container1 {
+  width: 100vw;
+  height: 50px;
+}
+
+.box1 {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo > img {
+  display: block;
+  object-fit: cover;
+  width: 120px;
+  height: 50px;
+}
+
+.btnMenu {
+  border: 1px solid white;
+  background-color: white;
+  color: black;
+  font-size: 12px;
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+.kor {
+  color: black;
+  font-size: 12px;
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.eng {
+  color: gray;
+  font-size: 12px;
+  font-weight: 700;
+  padding-left: 10px;
+  border-left: 1px solid gray;
+}
