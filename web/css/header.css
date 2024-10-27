@@ -1,0 +1,41 @@
+header {
+    width: 100vw;
+    padding: 10px 0;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    background-color: white;
+}
+
+nav {
+    width: 100%;
+    width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav > h1 {
+    font-size: 25px;    
+    font-weight: 700;
+    color: #444444;
+    padding-top: 12px;
+}
+
+nav > ul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav > ul > li {
+    font-size: 15px;
+    font-weight: 500;
+    color: #555555;
+    padding: 20px 40px;
+}
+
+nav > ul > li:hover {
+    color : white;
+    background-color: #555555;
+}

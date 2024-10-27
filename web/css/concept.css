@@ -1,0 +1,57 @@
+figure {
+    position: relative;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+}
+
+.concept {
+    width: 100vw;
+}
+
+.inno {
+    width: 100%;
+    max-width: 1180px;
+
+    padding-top: 300px;
+    
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    position: relative;
+}
+
+.inno > h1 {
+    font-size: 100px;
+    font-weight: 700;
+    color: white;
+}
+
+.inno > p {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #888;
+}
+
+.btn {
+    margin-top: 50px;
+    display: flex;
+  }
+
+.btn > button {
+    padding: 5px 150px;
+    background-color: rgb(255, 255, 255, 0);
+    border: 2px solid white;
+    color: white;
+}
+
+.btn > button:hover {
+    color : black;
+    background-color: white;
+}
