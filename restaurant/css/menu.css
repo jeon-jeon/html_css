@@ -1,0 +1,62 @@
+.menu__container {
+  padding: 50px 20px 20px;
+  gap: 30px;
+}
+
+.menu__motto {
+  text-align: center;
+}
+
+.menu__motto > h2 {
+  letter-spacing: var(--font--letter-spacing--medium);
+  font-size: var(--font--size--mega);
+}
+.menu__motto > h4 {
+  letter-spacing: var(--font--letter-spacing--small);
+  font-size: var(--font--size--large);
+  line-height: var(--font--line-height--small);
+}
+
+.menu__motto_margin {
+  margin-top: 50px;
+}
+
+.menu__motto > p {
+  font-size: var(--font--size--medium);
+  line-height: var(--font--line-height--small);
+  margin-top: 10px;
+}
+
+.menu__detail {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.menu__detail > h3 {
+  font-size: var(--font--size--x-large);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.menu__detail > figure {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+.menu__detail > figure > img {
+  display: block;
+  width: 250px;
+  height: 250px;
+  border-radius: 9999px;
+  margin: 0 auto;
+  object-fit: cover;
+}
+.menu__position {
+  object-position: 50% 80%;
+}

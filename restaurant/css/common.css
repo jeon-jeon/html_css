@@ -1,0 +1,28 @@
+body {
+  width: 100vw;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+main {
+  width: 100%;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.gradientText {
+  color: transparent;
+  background-image: linear-gradient(
+    to right,
+    #ff8177 0%,
+    #ff867a 0%,
+    #ff8c7f 21%,
+    #f99185 52%,
+    #cf556c 78%,
+    #b12a5b 100%
+  );
+  -webkit-background-clip: text;
+}
